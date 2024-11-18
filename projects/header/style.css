@@ -2,12 +2,30 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    
-}
-
 .header{
     width: 100%;
     box-sizing: border-box;
+}
+.menu{
+    height: 100px;
+    background-color: #FFFFFF;
+}
+.menu__ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin-left: 40px;
+}
+.menu__link{
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 10px;
+}
+.menu__link:hover{
+    color: #05a88d;
 }
